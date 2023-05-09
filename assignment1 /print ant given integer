@@ -1,0 +1,9 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+int n;
+cout<<"input intger";
+cin>>n;
+cout<<n;
+return0;
+}
