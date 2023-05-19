@@ -1,0 +1,20 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float per;
+    int a,b,c,d,e;
+    cout<<"enter marks of 5 subject";
+    cin>>a>>b>>c>>d>>e;
+    per = (a+b+c+d+e)/5;
+    
+    if (per>90 ) cout<<"grade a";
+    else if (per>80 && per<=90) cout<<"grade b";
+    else if (per>60 && per<=80) cout<<" grade c";
+    else cout<<"grade d";
+
+    return 0;
+}
