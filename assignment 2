@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+cout<<"enter p,t,r";
+float compound,si,p,t,r;
+si= (p*r*t)/100;
+cout<<"si is : <<si;
+compound=p*pow((1+(r)),t);
+cout<<"compund interest : <<compound;
+return0;
+}
