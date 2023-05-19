@@ -1,0 +1,15 @@
+
+
+using namespace std;
+
+int main()
+{
+    int a,r,c;
+    cout<<"enter two no";
+    cin>>a>>r;
+    c=a;
+    a=r;
+    r=c;
+    cout<< "swap is" <<a<<r;
+    return 0;
+}
