@@ -1,0 +1,15 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float cel,feh;
+    cout<<"input temp in celcius";
+    cin>>cel;
+    feh=cel*(9/5)+32;
+    cout<<feh;
+
+    return 0;
+}
