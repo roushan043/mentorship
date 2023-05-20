@@ -1,0 +1,20 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int s=0, p=0, n;
+  cout<<"input a no";
+  cin>>n;
+  for(int i=1; i<=n; i++){
+       if(i%2==0)
+  s=(s+1);
+  else
+  p=(p+1);
+  }
+ cout<<"even no" <<s;
+ cout<<"odd no"  <<p;
+    return 0;
+}
