@@ -1,0 +1,32 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,sv;
+    cout<<"select option 1.for add 2.for sub ";
+            cin>>sv;
+            
+            switch(sv)
+            {
+                case 1:
+                cout<<"input two no";
+                cin>>a>>b;
+                c=a+b;
+                cout<<c;
+                break;
+                case 2:
+                cout<<"input two no";
+                cin>>a>>b;
+                c=a-b;
+                cout<<c;
+                break;
+                default:
+                cout<<"invalid";
+                
+            }
+
+    return 0;
+}
