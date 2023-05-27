@@ -1,0 +1,21 @@
+
+
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{ int n,y=0, rem;
+  cout<<"input a no";
+  cin>>n;
+  while(n!=0){
+       rem=n%10;
+       y=10*y+rem;
+       n=n/10;
+  }
+
+cout<<"reverse no"<<y;
+
+
+return 0;
+}
