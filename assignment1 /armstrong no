@@ -1,0 +1,27 @@
+
+
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{ int n,y=0,p, rem, count=0;
+  cout<<"input a no";
+  cin>>n;
+   p=n;
+   do{
+       n=n/10;
+       count++;
+     } while(n!=0);
+
+  while(n!=0){
+       rem=n%10;
+       y=y+pow(rem,count);
+       n=n/10;
+  }
+ if(p==y)
+cout<<"armstrong no";
+else
+cout<<"not a armstrong no";
+return 0;
+}
