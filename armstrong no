@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using  namespace std;
+
+
+bool armstrong(int n){
+ int y=0,p,pranay, rem, count=0;
+
+   p=n;
+   do{
+       n=n/10;
+       count++;
+     } while(n!=0);
+
+    pranay = p;
+  while(pranay!=0){
+       rem=pranay%10;
+       y=y+pow(rem,count);
+       pranay=pranay/10;
+  }
+ if(p==y)
+return true;
+else
+return false;
+
+}
+
+int main(){
+    if(armstrong(153)) cout<<"roushan";
+    return 0;
+    
+}
