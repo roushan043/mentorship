@@ -5,7 +5,7 @@
 using namespace std;
 
 int main()
-{ int n,y=0,p, rem, count=0;
+{ int n,y=0,p, rem, count=0,rous;
   cout<<"input a no";
   cin>>n;
    p=n;
@@ -13,11 +13,11 @@ int main()
        n=n/10;
        count++;
      } while(n!=0);
-
-  while(n!=0){
-       rem=n%10;
+rous=p;
+  while(rous!=0){
+       rem=rous%10;
        y=y+pow(rem,count);
-       n=n/10;
+       rous=rous/10;
   }
  if(p==y)
 cout<<"armstrong no";
